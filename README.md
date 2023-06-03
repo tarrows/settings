@@ -20,6 +20,36 @@ ref: [Mac - コンピュータ名（ホスト名）を確認・変更する方�
 zsh -c "$(curl https://raw.githubusercontent.com/tarrows/settings/master/install.sh)"
 ```
 
+
+(TODO?: Add following steps to install.sh?)
+```
+==> Next steps:
+- Run these two commands in your terminal to add Homebrew to your PATH:
+    (echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/$HOME/.zprofile
+    eval "$(/opt/homebrew/bin/brew shellenv)"
+- Run brew help to get started
+- Further documentation:
+    https://docs.brew.sh
+```
+
+- check if installed: `$ brew -v`
+
+### homebrew
+
+- install brew bundle
+
+```bash
+brew tap Homebrew/bundle
+```
+
+- install from Brewfile
+
+```
+brew bundle install --file=~/settings/Brewfile
+```
+
+
+
 ## iTerm2
 
 ### iTerm2 → Settings → Profiles → Colors
