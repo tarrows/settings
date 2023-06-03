@@ -18,6 +18,8 @@ brew "pyenv"
 brew "coursier/formulas/coursier"
 brew "leoafarias/fvm/fvm"
 
+cask "iterm2"
+cask "google-chrome"
 cask "julia"
 cask "visual-studio-code"
 cask "vscodium"
