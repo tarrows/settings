@@ -21,7 +21,7 @@ zsh -c "$(curl https://raw.githubusercontent.com/tarrows/settings/master/install
 ```
 
 
-(TODO?: Add following steps to install.sh?)
+(TODO: Add following steps to install.sh?)
 ```
 ==> Next steps:
 - Run these two commands in your terminal to add Homebrew to your PATH:
@@ -33,6 +33,12 @@ zsh -c "$(curl https://raw.githubusercontent.com/tarrows/settings/master/install
 ```
 
 - check if installed: `$ brew -v`
+- deploy dotfiles:
+```bash
+cp ~/settings/.zshrc
+cp ~/settings/.vimrc ~/.vimrc
+cp ~/settings/.gvimrc ~/.gvimrc
+```
 
 ### homebrew
 
@@ -48,7 +54,9 @@ brew tap Homebrew/bundle
 brew bundle install --file=~/settings/Brewfile
 ```
 
-
+### Others
+- nvm `$ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash`
+- [rust](https://www.rust-lang.org/tools/install) `$ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh`
 
 ## iTerm2
 
