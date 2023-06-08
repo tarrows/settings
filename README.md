@@ -60,15 +60,18 @@ brew bundle install --file=~/settings/Brewfile
 
 ## iTerm2
 
-### iTerm2 → Settings → Profiles → Colors
+### Color Scheme
+iTerm2 → Settings → Profiles → Colors
 - Download Color Scheme
 - Color Presets… > Import... > Japanesque.itermcolors
 - Color Presets… > Japanesque
 
-### iTerm2 → Settings → Profiles → Window
+### Window Settings
+iTerm2 → Settings → Profiles → Window
 - Transparency: 20
 - Screen: Screen with Cursor
 - Space: All Spaces
 
-### iTerm2 → Settings → Profiles → Terminal
+### Terminal Settings
+iTerm2 → Settings → Profiles → Terminal
 - Scrollback lines: 20,000
