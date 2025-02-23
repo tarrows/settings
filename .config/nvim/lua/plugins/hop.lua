@@ -5,5 +5,5 @@ return {
     opts = {
       keys = 'etovxqpdygfblzhckisuran'
     }
-	}
+  }
 }

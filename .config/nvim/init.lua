@@ -1,7 +1,6 @@
--- ~/.config/nvim/lua/keymaps.lua を読み込み
--- :map, (モード毎には :nmap, :imap, :vmap, :cmap) で確認できる
-require("config.keymaps") -- vim.g.mapleaderはlazyを読み込む前にsetする必要がある
 require("config.lazy")
+-- keymapは :map, (モード毎には :nmap, :imap, :vmap, :cmap) で確認できる
+require("config.keymaps")
 
 -- # common
 vim.opt.number = true
