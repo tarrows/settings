@@ -55,10 +55,10 @@ return {
     'hrsh7th/nvim-cmp',
     dependencies = {
       'hrsh7th/cmp-nvim-lsp',
-      'hrsh7th/cmp-path',
-      'hrsh7th/cmp-buffer',
+      -- 'hrsh7th/cmp-path',
+      -- 'hrsh7th/cmp-buffer',
       'hrsh7th/cmp-emoji',
-      'hrsh7th/cmp-cmdline',
+      -- 'hrsh7th/cmp-cmdline',
     }, -- end dependencies
     config = function()
       --- 補完候補をポップアップ, 1つでも補完候補をポップアップ表示, 補完候補を自動選択しない
@@ -79,10 +79,10 @@ return {
         sources = {
           { name = 'nvim_lsp' },
           { name = 'emoji' },
-          { name = 'buffer' },
+          -- { name = 'buffer' },
           -- { name = 'calc' },
-          { name = 'path' },
-          { name = 'cmdline' },
+          -- { name = 'path' },
+          -- { name = 'cmdline' },
         }, -- end sources
       }) -- end cmp.setup
     end -- end config

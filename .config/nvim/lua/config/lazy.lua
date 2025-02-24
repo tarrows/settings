@@ -15,12 +15,14 @@ if not (vim.uv or vim.loop).fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
+-- 以下はlazyをセットアップする前に定義する必要があるためここで定義しているが、
+-- キーマップを設定する際にすぐ参照したい、かつlazyセットアップ後にキーマップを読み込みたいので keymaps.lua にも書いている
+
 -- Make sure to setup `mapleader` and `maplocalleader` before
 -- loading lazy.nvim so that mappings are correct.
 -- This is also a good place to setup other settings (vim.opt)
--- *** 以下は config/keymaps.lua でも設定している
 vim.g.mapleader = ","
-vim.g.maplocalleader = "\\"
+vim.g.maplocalleader = "."
 
 -- Setup lazy.nvim
 require("lazy").setup({
